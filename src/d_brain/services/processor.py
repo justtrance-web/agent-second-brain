@@ -12,6 +12,7 @@ from d_brain.services.session import SessionStore
 logger = logging.getLogger(__name__)
 
 DEFAULT_TIMEOUT = 1200  # 20 minutes
+CLAUDE_BIN = os.environ.get("CLAUDE_BIN", os.path.expanduser("~/.local/bin/claude"))
 
 
 class ClaudeProcessor:
@@ -177,7 +178,7 @@ CRITICAL OUTPUT FORMAT:
 
             result = subprocess.run(
                 [
-                    "claude",
+                    CLAUDE_BIN,
                     "--print",
                     "--dangerously-skip-permissions",
                     "--mcp-config",
@@ -281,7 +282,7 @@ EXECUTION:
 
             result = subprocess.run(
                 [
-                    "claude",
+                    CLAUDE_BIN,
                     "--print",
                     "--dangerously-skip-permissions",
                     "--mcp-config",
@@ -357,7 +358,7 @@ CRITICAL OUTPUT FORMAT:
 
             result = subprocess.run(
                 [
-                    "claude",
+                    CLAUDE_BIN,
                     "--print",
                     "--dangerously-skip-permissions",
                     "--mcp-config",
