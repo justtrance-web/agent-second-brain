@@ -1,28 +1,36 @@
-# About [Your Name]
+# About Антон (Кирилл)
 
 ## Who I Am
-[Your Name], [age]. [Your role/title] at [Your Company].
+Антон, владелец digital-агентства Artvision, СПб Петроградка.
 
 ## What I Do
-- [Main business activity]
-- [Side projects/interests]
+- SEO-агентство Artvision — комплексное продвижение (SEO, контент, техаудиты)
+- AI-автоматизация бизнес-процессов через Claude Code
+- Разработка AI-продуктов (Structural Engineering, AI Vision, Портной, LoyalMed)
 
 ## My Team
 | Name | Role |
 |------|------|
-| [Your Name] | [Your Role] |
-| [Team Member] | [Their Role] |
+| Антон (Кирилл) | Owner, стратегия, AI-инструменты |
+| Андрей Киселёв | Employee, операционка, клиенты |
+| Стас | Партнёр, проекты |
 
 ## Working Style
-- Timezone: [Your Timezone]
-- Working hours: [Your preferred hours]
-- Languages: [Your languages]
+- Timezone: MSK (UTC+3)
+- Working hours: гибкий, часто ночью
+- Languages: русский (основной), английский
 
 ## Values
-- [Value 1]
-- [Value 2]
-- [Value 3]
+- Скорость и автоматизация — минимум ручной работы
+- Факты > мнения — решения на данных
+- AI-first подход — каждый процесс через AI
 
 ## Key Clients/Projects
-- [Client/Project 1] — [Brief description]
-- [Client/Project 2] — [Brief description]
+- ANT Partners — генератор лендингов, 13 страниц
+- Atribeaute — медицинские клиники, SEO
+- Ka-Music — аренда оборудования
+- Symmetron — перевод datasheets
+- Geely A2Auto — автодилер
+
+## Главная цель
+2,000,000 RUB/месяц через агентство + продукты

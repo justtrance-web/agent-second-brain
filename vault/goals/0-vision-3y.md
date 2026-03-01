@@ -1,16 +1,15 @@
 ---
 type: vision
 horizon: 3-years
-period: 2025-2027
-updated: YYYY-MM-DD
+period: 2026-2028
+updated: 2026-03-02
 ---
 
-# Vision 2025-2027
+# Vision 2026-2028
 
 ## Life Mission
 
-<!-- Your life direction in one sentence -->
-<!-- Example: "Build meaningful technology while maintaining balance across health, relationships, and personal growth." -->
+Построить масштабируемый AI-бизнес, обеспечивающий финансовую свободу и контроль над временем.
 
 ---
 
@@ -19,90 +18,57 @@ updated: YYYY-MM-DD
 ### Career & Business
 
 **3-Year Vision:**
-<!-- Where do you want to be professionally in 3 years? -->
+Artvision — системное агентство с AI-агентами на каждом этапе. 4+ продукта приносят пассивный доход. Команда работает автономно.
 
 **Key Milestones:**
-- [ ] Milestone 1
-- [ ] Milestone 2
-- [ ] Milestone 3
+- [ ] 2M RUB/мес стабильный доход
+- [ ] 4 AI-продукта запущены и монетизированы
+- [ ] Агентство работает без моего ежедневного участия
 
 ---
 
 ### Health & Energy
 
 **3-Year Vision:**
-<!-- What does your ideal health look like? -->
+Стабильная энергия, регулярный спорт, качественный сон.
 
 **Key Milestones:**
-- [ ] Milestone 1
-- [ ] Milestone 2
-- [ ] Milestone 3
-
----
-
-### Relationships & Family
-
-**3-Year Vision:**
-<!-- How do you want your relationships to evolve? -->
-
-**Key Milestones:**
-- [ ] Milestone 1
-- [ ] Milestone 2
-- [ ] Milestone 3
-
----
-
-### Personal Growth
-
-**3-Year Vision:**
-<!-- What skills, habits, or mindset changes do you want? -->
-
-**Key Milestones:**
-- [ ] Milestone 1
-- [ ] Milestone 2
-- [ ] Milestone 3
+- [ ] Регулярные тренировки 3-4 раза в неделю
+- [ ] Сон 7-8 часов стабильно
+- [ ] Годовой чекап здоровья
 
 ---
 
 ### Financial
 
 **3-Year Vision:**
-<!-- What does financial security look like for you? -->
+Финансовая подушка 12 месяцев + пассивный доход от продуктов.
 
 **Key Milestones:**
-- [ ] Milestone 1
-- [ ] Milestone 2
-- [ ] Milestone 3
+- [ ] 2M RUB/мес — ближайшая цель
+- [ ] Подушка безопасности 12 мес расходов
+- [ ] Диверсификация: агентство + продукты + инвестиции
 
 ---
 
-### Creativity & Joy
+### Personal Growth
 
 **3-Year Vision:**
-<!-- What brings you joy? How will you nurture it? -->
+Глубокая экспертиза в AI/ML, публичные выступления, нетворкинг.
 
 **Key Milestones:**
-- [ ] Milestone 1
-- [ ] Milestone 2
-- [ ] Milestone 3
-
----
-
-## Quarterly Review Questions
-
-1. Which goals still align with my values?
-2. What has changed that affects these goals?
-3. What am I willing to sacrifice to achieve these?
-4. Who can help me?
+- [ ] Выступление на AI-конференции
+- [ ] Публикация кейсов Artvision
+- [ ] Менторство для начинающих
 
 ---
 
 ## Links
 
-- [[1-yearly-2025]] - This year's goals
+- [[1-yearly-YYYY]] - This year's goals
 - [[2-monthly]] - Current month focus
 - [[3-weekly]] - This week's plan
 
 ---
 
-*Next Review: Q1 2025*
+*Next Review: Q2 2026*

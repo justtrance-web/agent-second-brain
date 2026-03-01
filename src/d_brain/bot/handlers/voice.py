@@ -9,7 +9,7 @@ from aiogram.types import Message
 from d_brain.config import get_settings
 from d_brain.services.session import SessionStore
 from d_brain.services.storage import VaultStorage
-from d_brain.services.transcription import DeepgramTranscriber
+from d_brain.services.transcription import get_transcriber
 
 router = Router(name="voice")
 logger = logging.getLogger(__name__)
@@ -25,24 +25,28 @@ async def handle_voice(message: Message, bot: Bot) -> None:
 
     settings = get_settings()
     storage = VaultStorage(settings.vault_path)
-    transcriber = DeepgramTranscriber(settings.deepgram_api_key)
+
+    transcriber = get_transcriber(settings.groq_api_key, settings.deepgram_api_key)
+    if not transcriber:
+        await message.answer("⚠️ Транскрипция не настроена. Добавь GROQ_API_KEY или DEEPGRAM_API_KEY в .env")
+        return
 
     try:
         file = await bot.get_file(message.voice.file_id)
         if not file.file_path:
-            await message.answer("Failed to download voice message")
+            await message.answer("Не удалось скачать голосовое")
             return
 
         file_bytes = await bot.download_file(file.file_path)
         if not file_bytes:
-            await message.answer("Failed to download voice message")
+            await message.answer("Не удалось скачать голосовое")
             return
 
         audio_bytes = file_bytes.read()
         transcript = await transcriber.transcribe(audio_bytes)
 
         if not transcript:
-            await message.answer("Could not transcribe audio")
+            await message.answer("Не удалось распознать речь")
             return
 
         timestamp = datetime.fromtimestamp(message.date.timestamp())
@@ -63,4 +67,4 @@ async def handle_voice(message: Message, bot: Bot) -> None:
 
     except Exception as e:
         logger.exception("Error processing voice message")
-        await message.answer(f"Error: {e}")
+        await message.answer(f"Ошибка: {e}")

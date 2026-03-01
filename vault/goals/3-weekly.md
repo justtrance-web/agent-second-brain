@@ -1,7 +1,7 @@
 ---
 type: weekly
-week: YYYY-WWW
-updated: YYYY-MM-DD
+week: 2026-W10
+updated: 2026-03-02
 ---
 
 # Weekly Focus
@@ -9,17 +9,15 @@ updated: YYYY-MM-DD
 ## ONE Big Thing
 
 > **If I accomplish nothing else, I will:**
-> [Single most important outcome for this week]
-
-<!-- This is read by the bot during daily processing -->
+> Запустить agent-second-brain и начать использовать как основной инструмент захвата мыслей
 
 ---
 
 ## Week at a Glance
 
-**Week:** [X] of 52
-**Energy Level:** [High/Medium/Low]
-**Available Hours:** [X] hours focused work
+**Week:** 10 of 52
+**Energy Level:** Medium
+**Available Hours:** 40 hours focused work
 
 ---
 
@@ -27,101 +25,27 @@ updated: YYYY-MM-DD
 
 ### Must Do (Non-negotiable)
 
-- [ ] Task 1 — Связь: [[1-yearly-2025#Goal]]
-- [ ] Task 2
-- [ ] Task 3
+- [x] Установить agent-second-brain — бот работает
+- [ ] Протестировать бот: текст + голосовые
+- [ ] Обновить клиентские задачи в Asana
 
 ### Should Do (Important)
 
-- [ ] Task 1
-- [ ] Task 2
+- [ ] Закрыть задачи по Atribeaute
+- [ ] Проверить позиции ANT Partners
 
 ### Could Do (If time permits)
 
-- [ ] Task 1
-- [ ] Task 2
-
----
-
-## Daily Plan
-
-### Monday
-
-- [ ] Task 1
-- [ ] Task 2
-
-### Tuesday
-
-- [ ] Task 1
-- [ ] Task 2
-
-### Wednesday
-
-- [ ] Task 1
-- [ ] Task 2
-
-### Thursday
-
-- [ ] Task 1
-- [ ] Task 2
-
-### Friday
-
-- [ ] Task 1
-- [ ] Task 2
-
-### Weekend
-
-- [ ] Rest / Family time
-- [ ] Optional task
-
----
-
-## Key Meetings & Events
-
-| Day | Time | Event | Prep |
-|-----|------|-------|------|
-| Mon | | | |
-| Tue | | | |
-
----
-
-## Habits Tracker
-
-| Habit | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
-|-------|-----|-----|-----|-----|-----|-----|-----|
-| [Habit 1] | | | | | | | |
-| [Habit 2] | | | | | | | |
-| [Habit 3] | | | | | | | |
-
----
-
-## End of Week Review
-
-### What Worked
-
--
-
-### What Didn't Work
-
--
-
-### Lessons Learned
-
--
-
-### Next Week Focus
-
->
+- [ ] Настроить Todoist интеграцию для d-brain
+- [ ] Подготовить КП для нового клиента
 
 ---
 
 ## Links
 
 - [[2-monthly]] - Monthly priorities
-- [[1-yearly-2025]] - Yearly goals
-- Previous: [[3-weekly-YYYY-WXX]]
+- [[0-vision-3y]] - 3-year vision
 
 ---
 
-*Week Started: YYYY-MM-DD*
+*Week Started: 2026-03-02*
