@@ -1,5 +1,6 @@
 """Voice message handler."""
 
+import html
 import logging
 from datetime import datetime
 
@@ -62,9 +63,10 @@ async def handle_voice(message: Message, bot: Bot) -> None:
             msg_id=message.message_id,
         )
 
-        await message.answer(f"🎤 {transcript}\n\n✓ Сохранено")
+        safe = html.escape(transcript)
+        await message.answer(f"🎤 {safe}\n\n✓ Сохранено")
         logger.info("Voice message saved: %d chars", len(transcript))
 
     except Exception as e:
         logger.exception("Error processing voice message")
-        await message.answer(f"Ошибка: {e}")
+        await message.answer(f"Ошибка: {html.escape(str(e))}")

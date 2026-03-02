@@ -1,6 +1,7 @@
 """Handler for /do command - arbitrary Claude requests."""
 
 import asyncio
+import html
 import logging
 
 from aiogram import Bot, Router
@@ -75,7 +76,7 @@ async def handle_do_input(message: Message, bot: Bot, state: FSMContext) -> None
             return
 
         # Echo transcription to user
-        await message.answer(f"🎤 <i>{prompt}</i>")
+        await message.answer(f"🎤 <i>{html.escape(prompt)}</i>")
 
     # Handle text input
     elif message.text:
