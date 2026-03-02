@@ -36,16 +36,19 @@ Curated knowledge that persists across sessions. Part of the 3-layer memory arch
 
 ## Active Context
 
-### ONE Big Thing (This Week)
+### ONE Big Thing (Week 10)
 <!-- From goals/3-weekly.md -->
-- [ ] [Current week's main focus]
+- [ ] Запустить agent-second-brain и начать использовать как основной инструмент захвата мыслей
 
 ### Hot Projects
-1. [Project name] — [status/next action]
+1. agent-second-brain — бот установлен, тестирование текст+голос в процессе
+2. Atribeaute — задачи к закрытию
+3. ANT Partners — проверка позиций
 
-### Pipeline/Leads
-<!-- If applicable -->
-- [Lead name] — [status]
+### Blockers
+- mcp-cli не установлен → Todoist недоступен для автоматизации
+- Голосовые записи не работают в TG боте
+- Monthly/yearly goals — шаблоны, не заполнены
 
 ## Key People
 
